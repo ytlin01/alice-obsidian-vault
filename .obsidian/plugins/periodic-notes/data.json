@@ -1,0 +1,32 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "folder": "Planning/Daily Notes",
+    "template": "_Templates/Daily Note",
+    "enabled": true
+  },
+  "weekly": {
+    "enabled": true,
+    "format": "YYYY-[W]ww",
+    "folder": "Reviews/Personal",
+    "template": "_Templates/Personal Weekly Review.md"
+  },
+  "monthly": {
+    "enabled": true,
+    "format": "YYYY-MM",
+    "folder": "Reviews/Personal",
+    "template": "_Templates/Personal Monthly Review.md"
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

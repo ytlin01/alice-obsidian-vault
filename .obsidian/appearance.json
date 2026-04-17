@@ -1,0 +1,7 @@
+{
+  "theme": "system",
+  "cssTheme": "Primary",
+  "enabledCssSnippets": [
+    "columns"
+  ]
+}

@@ -1,0 +1,17 @@
+# Obsidian — workspace state changes constantly, no value tracking
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# Obsidian trash
+.trash/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.swp
+*~

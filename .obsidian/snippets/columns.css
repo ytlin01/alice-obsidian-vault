@@ -1,0 +1,22 @@
+/* Multi-column layout: > [!multi-column] */
+.callout[data-callout="multi-column"] {
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.callout[data-callout="multi-column"] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout="multi-column"] > .callout-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0;
+}
+
+.callout[data-callout="multi-column"] > .callout-content > .callout {
+  margin: 0;
+}
