@@ -1,4 +1,11 @@
-# 🟡 System Design Notes
+---
+title: System Design (ML)
+created: 2026-04-17
+tags: [knowledge, ds-interview, system-design]
+topics: [ml-systems, architecture]
+---
+
+# System Design (ML)
 
 > For DS/MLE roles, system design focuses on ML systems — not just generic SWE architecture.
 
@@ -14,7 +21,7 @@
 
 ---
 
-## Checklist
+## Curriculum Checklist
 
 ### Month 1 — Concepts
 - [ ] Databases vs data warehouses
@@ -95,7 +102,6 @@ Training-serving skew — features computed differently offline vs online leads 
 
 ---
 
-## Resources
-- Eugene Yan's blog: https://eugeneyan.com
-- ML System Design GitHub: https://github.com/chiphuyen/machine-learning-systems-design
-- DDIA book (chapters 1–3 priority)
+## Connected To
+- [[ML Concepts]]
+- [[Resources]]

@@ -66,6 +66,10 @@ Number of Columns: 2
 
 ---
 
+## Technical Work Summary
+
+---
+
 ## Self-Growth Log
 
 - **What I worked on:**

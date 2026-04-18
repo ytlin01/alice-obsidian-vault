@@ -1,10 +1,13 @@
-# 🟢 SQL Tracker
+---
+title: SQL Patterns
+created: 2026-04-17
+tags: [knowledge, ds-interview, sql]
+topics: [sql, analytics]
+---
 
-## Stats
-- **Total solved:** 0
-- **Mode Tutorial:** 0 / 9 lessons
-- **DataLemur:** 0 problems
-- **StrataScratch:** 0 problems
+# SQL Patterns
+
+> Curriculum + reusable snippets. Per-week problem logs and mistakes live in [[_Templates/DS Study Weekly]] notes.
 
 ---
 
@@ -96,13 +99,7 @@ GROUP BY f.first_date;
 
 ---
 
-## Problem Log
-
-| # | Platform | Problem | Topic | Date | Difficulty |
-|---|----------|---------|-------|------|------------|
-| 1 | | | | | |
-
----
-
-## Mistakes to Review
-- 
+## Connected To
+- [[LeetCode Patterns]]
+- [[ML Concepts]]
+- [[Resources]]

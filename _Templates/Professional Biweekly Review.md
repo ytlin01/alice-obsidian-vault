@@ -32,6 +32,21 @@ tags: [biweekly-review, professional]
 
 ---
 
+## DS Interview Prep Progress
+
+| Track | This Sprint | Cumulative | Target (3mo) |
+|-------|-------------|------------|--------------|
+| LeetCode problems | | | 100–120 |
+| SQL problems | | | ~60 |
+| ML concepts learned | | | 10–15 |
+| System designs practiced | | | 4–6 |
+
+- **Strongest area:**
+- **Weakest area / focus next:**
+- **New patterns added to** [[LeetCode Patterns]] / [[SQL Patterns]]:
+
+---
+
 ## PhD Progress
 
 - **What I worked on:**

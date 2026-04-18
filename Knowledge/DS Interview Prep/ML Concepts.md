@@ -1,10 +1,17 @@
-# 🟣 ML Concepts
+---
+title: ML Concepts
+created: 2026-04-17
+tags: [knowledge, ds-interview, machine-learning]
+topics: [machine-learning, statistics]
+---
+
+# ML Concepts
 
 > Goal: Be able to explain each concept clearly in 2–3 sentences without notes.
 
 ---
 
-## Checklist
+## Concepts Checklist
 
 ### Month 1 — Fundamentals
 - [ ] Supervised vs unsupervised learning
@@ -64,7 +71,7 @@
 
 ---
 
-*(Add new concepts below as you learn them)*
+*(Add new concepts below as you learn them — use [[_Templates/Concept Note]] for deeper standalone notes.)*
 
 ---
 
@@ -78,3 +85,10 @@
 | What evaluation metric would you use for a fraud detection model? | |
 | Explain how gradient descent works | |
 | What is cross-validation and why do we use it? | |
+
+---
+
+## Connected To
+- [[System Design]]
+- [[LeetCode Patterns]]
+- [[Resources]]

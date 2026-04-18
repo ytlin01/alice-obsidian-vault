@@ -1,21 +1,17 @@
-# 🔵 LeetCode Tracker
+---
+title: LeetCode Patterns
+created: 2026-04-17
+tags: [knowledge, ds-interview, leetcode, algorithms]
+topics: [algorithms, data-structures]
+---
 
-## Stats
-- **Total solved:** 0
-- **Easy:** 0 | **Medium:** 0 | **Hard:** 0
-- **Current streak:** 0 days
+# LeetCode Patterns
+
+> Patterns to internalize + Python snippets to recall under interview pressure. Per-week problem logs live in [[_Templates/DS Study Weekly]] notes.
 
 ---
 
-## Problem Log
-
-| # | Problem | Difficulty | Pattern | Date | Notes |
-|---|---------|------------|---------|------|-------|
-| 1 | | Easy | | | |
-
----
-
-## Patterns Learned
+## Patterns Checklist
 
 ### Arrays & Strings
 - [ ] Two pointers
@@ -105,5 +101,7 @@ def dfs(node, visited):
 
 ---
 
-## Problems to Revisit
-- 
+## Connected To
+- [[SQL Patterns]]
+- [[ML Concepts]]
+- [[Resources]]
