@@ -77,7 +77,7 @@ tags: [study, weekly-review, ds-interview]
 - [ ] #study Redo 1–2 problems from this week cold 📅 {{sunday:YYYY-MM-DD}}
 - [ ] #study Review SQL notes 📅 {{sunday:YYYY-MM-DD}}
 - [ ] #study Identify weakest area this week 📅 {{sunday:YYYY-MM-DD}}
-- [ ] #study Update running totals in biweekly review 📅 {{sunday:YYYY-MM-DD}}
+- [ ] #study Update running totals in weekly professional review 📅 {{sunday:YYYY-MM-DD}}
 
 ---
 

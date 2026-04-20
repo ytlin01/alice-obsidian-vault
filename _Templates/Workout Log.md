@@ -54,4 +54,4 @@ tags: [workout]
 - **Next session — adjust:**
 
 ---
-*[[Planning/Daily Notes/<% tp.date.now("YYYY-MM-DD") %>]] · [[Reviews/Personal/]]*
+*[[Planning/Daily Notes/<% tp.date.now("YYYY-MM-DD") %>]] · [[Planning/Weekly/Personal/]]*

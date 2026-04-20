@@ -1,9 +1,19 @@
 ---
 date: {{date:YYYY-MM}}
-tags: [monthly-review, personal]
+tags: [monthly-review]
 ---
 
-# Personal Monthly Review — {{date:MMMM YYYY}}
+# Monthly Review - {{date:MMMM YYYY}}
+
+## Calendar
+
+```dataview
+CALENDAR file.day
+FROM "Planning/Daily Notes"
+WHERE dateformat(file.day, "yyyy-MM") = this.file.name
+```
+
+---
 
 ## Health Overview
 
@@ -46,6 +56,15 @@ tags: [monthly-review, personal]
 
 ---
 
+## Professional Overview
+
+- **Key work completed:**
+- **Main challenges:**
+- **Progress on longer-term goals:**
+- **What to carry into next month:**
+
+---
+
 ## Goals for Next Month
 
 1.
@@ -54,17 +73,17 @@ tags: [monthly-review, personal]
 
 ---
 
-## DS Interview Prep — Monthly Milestone
+## DS Interview Prep - Monthly Milestone
 
 > *(Reference [[Knowledge/DS Interview Prep/Dashboard]] for the full plan.)*
 
-- [ ] **Month 1** — 15–20 LeetCode Easy, Mode SQL Tutorial done, 4–5 StatQuest videos
-- [ ] **Month 2** — 50–60 LeetCode, window functions comfortable, 3–4 ML concepts explainable
-- [ ] **Month 3** — 100–120 LeetCode, SQL mocks passing, 2 full system designs practiced
+- [ ] **Month 1** - 15-20 LeetCode Easy, Mode SQL Tutorial done, 4-6 StatQuest videos
+- [ ] **Month 2** - 50-60 LeetCode, window functions comfortable, 3-5 ML concepts explainable
+- [ ] **Month 3** - 100-120 LeetCode, SQL mocks passing, 2 full system designs practiced
 
 - **This month's milestone:**
 - **Hit / missed / partial:**
 - **Adjustments for next month:**
 
 ---
-*[[Reviews/Personal/]] · [[Health/Diet Goals]]*
+*[[Planning/Monthly/]] · [[Health/Diet Goals]]*

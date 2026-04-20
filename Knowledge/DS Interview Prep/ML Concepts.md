@@ -11,7 +11,7 @@ topics: [machine-learning, statistics]
 
 ---
 
-## Concepts Checklist
+## Study Checklist
 
 ### Month 1 — Fundamentals
 - [ ] Supervised vs unsupervised learning

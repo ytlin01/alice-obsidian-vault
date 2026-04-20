@@ -9,39 +9,52 @@ topics: [data-science, interview-prep]
 
 > **Goal:** Land an AI/DS role | **Timeline:** 3 months | **Daily commitment:** 1 hour
 
-This folder is the knowledge base for interview prep — patterns, concepts, and references. Weekly study sessions are tracked in [[_Templates/DS Study Weekly]] notes. Progress stats roll up into [[_Templates/Professional Biweekly Review]] and [[_Templates/Personal Monthly Review]].
+This folder is the knowledge base for interview prep: patterns, concepts, and references. Weekly study sessions are tracked in [[_Templates/DS Study Weekly]] notes. Progress stats roll up into [[_Templates/Professional Weekly Review]] and [[_Templates/Personal Monthly Review]].
 
 ---
 
 ## Reference Notes
 
-- [[LeetCode Patterns]] — patterns checklist + Python snippets
-- [[SQL Patterns]] — curriculum + SQL snippets
-- [[ML Concepts]] — concept notes + interview Q&A bank
-- [[System Design]] — framework + ML system archetypes
-- [[Resources]] — curated links by track
+- [[LeetCode Patterns]] - patterns checklist + Python snippets
+- [[SQL Patterns]] - curriculum + SQL snippets
+- [[ML Concepts]] - concept notes + interview Q&A bank
+- [[System Design]] - framework + ML system archetypes
+- [[Resources]] - curated links by track
 
 ---
 
-## Weekly Cadence
+## Courses
+
+- [[LeetCode Data Structures Course]] - course hub + module notes
+- [[Arrays and Strings]] - today's concept note for core array/string patterns
+
+---
+
+## Weekly Schedule - Updated
 
 | Day | Time | Track | Focus |
 |-----|------|-------|-------|
-| Monday | 5:30 PM | LeetCode | DS Course lesson + 1 problem |
-| Tuesday | 5:30 PM | SQL | Practice problems |
-| Wednesday | 5:30 PM | LeetCode | DS Course lesson + 1 problem |
-| Thursday | 5:30 PM | ML Basics | StatQuest video + notes |
-| Friday | 5:30 PM | SQL | Practice problems |
-| Saturday | 10:00 AM | System Design | Reading / walkthrough |
-| Sunday | 10:00 AM | Review | Redo problems + weak spots |
+| **Monday** | 5:30 PM | LeetCode | DS array / string / hash mediums + pandas problems<br>Data manipulation patterns over pure algo |
+| **Tuesday** | 5:30 PM | SQL fundamentals | 30 min concept review + 2-3 DataLemur easy/medium problems<br>Rotate through: JOINs -> GROUP BY -> CASE WHEN -> window fns -> CTEs<br>Move on when comfortable, don't wait for a deadline |
+| **Wednesday** | 5:30 PM | ML + Stats | StatQuest video + notes + 20 min stats/probability<br>A/B testing, distributions, Bayesian basics alongside ML concepts |
+| **Thursday** | 5:30 PM | SQL + fundamentals | Same concept as Tuesday - reinforce what you covered, then push to harder problems<br>Once a concept clicks, swap that slot to medium/hard DataLemur problems<br>No fixed date - you decide when you're ready |
+| **Friday** | 5:30 PM | Portfolio | End-to-end DS/ML project work<br>EDA -> model -> write-up. Aim for 2 projects over 3 months |
+| **Saturday** | 10:00 AM | System design | ML-flavoured system design walkthroughs<br>ML pipelines, feature stores, model serving, rec systems |
+| **Sunday** | 10:00 AM | Review | Redo weak SQL problems + ML concept reinforcement<br>Keep a running weak-spot list during the week - review those specifically |
 
 ---
 
-## Targets (3 months)
+## Trackers
 
-- **LeetCode:** 100–120 problems
-- **SQL:** ~60 problems
-- **ML Concepts:** 10–15 explainable
-- **System Designs:** 4–6 full walkthroughs
+- [[LeetCode Tracker]] - log all problems with status
+- [[SQL Tracker]] - DataLemur problems + concept rotation
+- [[ML Concepts]] - concept explainers + interview Q&A
+- [[Portfolio Projects]] - end-to-end project tracking
+- [[System Design]] - ML system walkthroughs
 
-Track running counts in the biweekly professional review.
+---
+
+## Progress
+
+- Started: 2026-04-20
+- Next review: (monthly milestone)

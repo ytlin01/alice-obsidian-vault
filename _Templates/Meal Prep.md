@@ -53,4 +53,4 @@ tags: [meal-prep, nutrition]
 -
 
 ---
-*[[Health/Diet Goals]] · [[Reviews/Personal/]]*
+*[[Health/Diet Goals]] · [[Planning/Weekly/Personal/]]*

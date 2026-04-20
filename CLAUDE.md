@@ -13,11 +13,11 @@
 
 ```
 Planning/Daily Notes/YYYY-MM-DD.md   ← daily notes
+Planning/Weekly/                     ← weekly planning & reviews
+Planning/Monthly/                    ← combined monthly reviews
 Health/Workouts/YYYY-MM-DD.md        ← workout logs
 Health/Meal Prep/                    ← weekly meal prep notes
 Health/Diet Goals.md                 ← macro targets & body stats
-Reviews/Personal/                    ← weekly & monthly personal reviews
-Reviews/Professional/                ← biweekly professional reviews
 Knowledge/                           ← knowledge base notes
 DS-Interview-Prep/                   ← data science interview prep system
 _Templates/                          ← all note templates

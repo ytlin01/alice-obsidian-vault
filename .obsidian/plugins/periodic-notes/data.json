@@ -10,13 +10,13 @@
   "weekly": {
     "enabled": true,
     "format": "YYYY-[W]ww",
-    "folder": "Reviews/Personal",
+    "folder": "Planning/Weekly/Personal",
     "template": "_Templates/Personal Weekly Review.md"
   },
   "monthly": {
     "enabled": true,
     "format": "YYYY-MM",
-    "folder": "Reviews/Personal",
+    "folder": "Planning/Monthly",
     "template": "_Templates/Personal Monthly Review.md"
   },
   "quarterly": {

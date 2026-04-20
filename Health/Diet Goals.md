@@ -93,4 +93,4 @@ tags: [diet, goals, reference]
 | Lift ___ lbs on ___ | | ⬜ | |
 
 ---
-*[[Reviews/Personal/]] · Pin this file for quick reference*
+*[[Planning/Monthly/]] · Pin this file for quick reference*

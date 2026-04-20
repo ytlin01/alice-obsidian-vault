@@ -5,13 +5,15 @@ tags: [knowledge, ds-interview, system-design]
 topics: [ml-systems, architecture]
 ---
 
-# System Design (ML)
+# System Design
 
 > For DS/MLE roles, system design focuses on ML systems — not just generic SWE architecture.
 
 ---
 
-## Design Framework (use for every question)
+## Design Framework
+
+Use for every question:
 
 1. **Problem** — clarify requirements, scale, constraints
 2. **Data** — what data exists, how it's stored, how it flows

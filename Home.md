@@ -22,8 +22,8 @@ Border: off
 ### Planning
 
 - [[Planning/Daily Notes/|Daily Notes]]
-- [[Reviews/Personal/|Personal Reviews]]
-- [[Reviews/Professional/|Professional Reviews]]
+- [[Planning/Weekly/|Weekly]]
+- [[Planning/Monthly/|Monthly]]
 
 &nbsp;
 
