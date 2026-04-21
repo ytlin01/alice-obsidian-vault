@@ -7,69 +7,96 @@ topics: [algorithms, data-structures]
 
 # LeetCode Patterns
 
-> Patterns to internalize + Python snippets to recall under interview pressure. Per-week problem logs live in [[_Templates/DS Study Weekly]] notes.
+> Quick-reference note for pattern recognition. Use [[LeetCode Tracker]] for problem logs and weak spots.
 
 ---
 
-## Patterns Checklist
+## How To Use This Note
+
+1. Identify the input shape: array, string, tree, graph, matrix.
+2. Look for the signal: sorted, contiguous, repeated, shortest path, parent-child, overlap.
+3. Match it to one pattern family below.
+4. If stuck, write the simplest brute force first, then ask what repeated work can be removed.
+
+---
+
+## Pattern Map
 
 ### Arrays & Strings
-- [ ] Two pointers
-- [ ] Sliding window
-- [ ] Prefix sum
 
-### Hash Maps & Sets
-- [ ] Frequency counting
-- [ ] Two Sum pattern
+| Pattern | Reach for it when... | Common move |
+|---|---|---|
+| Two pointers | array/string is sorted, or you compare from both ends | move `l` / `r` based on condition |
+| Sliding window | need longest/shortest/number of valid contiguous subarrays | expand right, shrink left |
+| Prefix sum | repeated range-sum checks | precompute running totals |
+| Hash map / set | need fast lookup, counts, duplicates, complement search | store seen values or frequencies |
 
-### Binary Search
-- [ ] Standard template
-- [ ] Search in rotated array
+### Search
 
-### Stacks & Queues
-- [ ] Monotonic stack
-- [ ] BFS with deque
+| Pattern | Reach for it when... | Common move |
+|---|---|---|
+| Binary search | sorted search space or "minimum valid answer" | cut search space in half |
+| Binary search on answer | asking for smallest/largest feasible value | test feasibility with helper |
 
-### Trees
-- [ ] DFS (recursive)
-- [ ] BFS (level order)
-- [ ] BST properties
+### Stack / Queue
 
-### Graphs
-- [ ] DFS
-- [ ] BFS
-- [ ] Union-Find
+| Pattern | Reach for it when... | Common move |
+|---|---|---|
+| Monotonic stack | next greater/smaller element, histogram, span | pop until stack order works |
+| Queue / BFS | level-by-level exploration or shortest path in unweighted graph | `popleft()` and push neighbors |
+
+### Trees & Graphs
+
+| Pattern | Reach for it when... | Common move |
+|---|---|---|
+| DFS | need full traversal, recursion, path building | recurse on children / neighbors |
+| BFS | need minimum steps or level order | queue frontier nodes |
+| Union-Find | need connected components with many merge/check operations | union roots, path compress |
 
 ### Dynamic Programming
-- [ ] 1D DP
-- [ ] 2D DP
+
+| Pattern | Reach for it when... | Common move |
+|---|---|---|
+| 1D DP | answer depends on earlier positions or smaller totals | define `dp[i]` clearly |
+| 2D DP | state depends on two positions or two strings | build table by row/column |
 
 ---
 
-## Python Snippets
+## Recognition Cues
 
-### Hashmap default
+- `sorted` -> two pointers or binary search
+- `subarray / substring` -> sliding window or prefix sum
+- `top k / smallest / largest` -> heap
+- `tree path / depth / ancestor` -> DFS
+- `minimum steps` -> BFS
+- `same work repeated` -> DP
+- `groups / connectivity` -> graph traversal or Union-Find
+
+---
+
+## Python Quick Reference
+
+### Counting
 ```python
 from collections import defaultdict
-d = defaultdict(int)
+count = defaultdict(int)
 ```
 
-### Counter
+### Frequency shortcut
 ```python
 from collections import Counter
 count = Counter(nums)
 ```
 
-### Deque
+### Queue
 ```python
 from collections import deque
 q = deque()
-q.append(x)      # add right
-q.appendleft(x)  # add left
-q.popleft()      # remove left O(1)
+q.append(x)
+q.popleft()
 ```
 
-### Heap (min)
+### Min-heap
 ```python
 import heapq
 heap = []
@@ -77,19 +104,22 @@ heapq.heappush(heap, val)
 heapq.heappop(heap)
 ```
 
-### BFS template
+### BFS
 ```python
 from collections import deque
-def bfs(root):
-    q = deque([root])
+def bfs(start):
+    q = deque([start])
+    seen = {start}
     while q:
         node = q.popleft()
         # process node
         for neighbor in node.neighbors:
-            q.append(neighbor)
+            if neighbor not in seen:
+                seen.add(neighbor)
+                q.append(neighbor)
 ```
 
-### DFS template
+### DFS
 ```python
 def dfs(node, visited):
     if node in visited:
@@ -99,9 +129,26 @@ def dfs(node, visited):
         dfs(neighbor, visited)
 ```
 
+### Binary search
+```python
+def binary_search(nums, target):
+    l, r = 0, len(nums) - 1
+    while l <= r:
+        m = (l + r) // 2
+        if nums[m] == target:
+            return m
+        if nums[m] < target:
+            l = m + 1
+        else:
+            r = m - 1
+    return -1
+```
+
 ---
 
 ## Connected To
+- [[Dashboard]]
+- [[LeetCode Tracker]]
 - [[SQL Patterns]]
 - [[ML Concepts]]
 - [[Resources]]

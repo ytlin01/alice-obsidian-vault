@@ -52,8 +52,7 @@ Getting comfortable here makes later topics like hash maps, stacks, and dynamic 
 - **Reverse String**: start the pointers at the edges of the input. Move them towards each other until they meet.
 	- O(n) iterations in while loop
 	- If each iteration is O(1), the runtime will be linear
-
-- Pseudocode:
+	- Pseudocode:
 ```
 function fn(arr):
     left = 0
@@ -67,20 +66,46 @@ function fn(arr):
             3. Both left++ and right--
 ```
 
+- **Two Arrays**: move along both inputs simultaneously until all elements have been checked.
+	- Time complexity: O(n+m) when the work inside the while loop is O(1).
+		- ``` n = arr1.length``` and ```m = arr2.length```.
+	- The pointers cannot be moved forward more than n+m times without the arrays being exhausted.
+	- Pseudocode:
+```
+function fn(arr1, arr2):
+    i = j = 0
+    while i < arr1.length AND j < arr2.length:
+        Do some logic here depending on the problem
+        Do some more logic here to decide on one of the following:
+            1. i++
+            2. j++
+            3. Both i++ and j++
+
+    // Step 4: make sure both iterables are exhausted
+    // Note that only one of these loops would run
+    while i < arr1.length:
+        Do some logic here depending on the problem
+        i++
+
+    while j < arr2.length:
+        Do some logic here depending on the problem
+        j++
+```
 
 ---
 
 ## Key Question Types
-- Two sums
+- **Two sums**: start by sorting the array, so that we can use two pointers to sum the first and last numbers and move towards each other until the target sum is reached.
+	- without sorting, the time complexity would be O(n^2), by sorting the array, the time complexity becomes O(n).
 
 ---
 
 ## Connected To
-- [[LeetCode Data Structures Course]] - this is the first concept in the course
+- [[Dashboard]] - DS interview prep hub
 - [[LeetCode Patterns]] - arrays and strings patterns live in the main pattern checklist
 - [[LeetCode Tracker]] - problems solved in this area should be logged there
 
 ---
 
-## Where I Learned This
-- [[LeetCode Data Structures Course]] *(course)*
+## Note Type
+- Detailed course note in `Knowledge/LeetCode Courses/Data Structures/`

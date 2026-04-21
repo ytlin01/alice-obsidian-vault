@@ -15,18 +15,27 @@ This folder is the knowledge base for interview prep: patterns, concepts, and re
 
 ## Reference Notes
 
-- [[LeetCode Patterns]] - patterns checklist + Python snippets
-- [[SQL Patterns]] - curriculum + SQL snippets
+- [[LeetCode Patterns]] - quick pattern recognition map + Python templates
+- [[SQL Patterns]] - quick SQL concept map + reusable snippets
 - [[ML Concepts]] - concept notes + interview Q&A bank
 - [[System Design]] - framework + ML system archetypes
 - [[Resources]] - curated links by track
 
 ---
 
-## Courses
+## LeetCode Notes
 
-- [[LeetCode Data Structures Course]] - course hub + module notes
-- [[Arrays and Strings]] - today's concept note for core array/string patterns
+- [[LeetCode Tracker]] - solved problems, status, and weak spots
+- [[Arrays and Strings]] - detailed course note for array/string fundamentals
+- More detailed LeetCode notes live in `Knowledge/LeetCode Courses/`
+
+---
+
+## SQL Notes
+
+- [[SQL Tracker]] - SQL problems, tutorial progress, and weak spots
+- [[SQL Crash Course]] - detailed W3WSchools crash course note for core SQL concepts
+- SQL crash course notes now live directly in `Knowledge/DS Interview Prep/`
 
 ---
 

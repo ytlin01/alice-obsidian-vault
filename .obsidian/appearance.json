@@ -2,6 +2,7 @@
   "theme": "system",
   "cssTheme": "Primary",
   "enabledCssSnippets": [
-    "columns"
+    "columns",
+    "weekly-review"
   ]
 }

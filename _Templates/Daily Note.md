@@ -2,6 +2,9 @@
 date: {{date:YYYY-MM-DD}}
 day: {{date:dddd}}
 week: W{{date:ww}}
+water_cups: 0
+water_goal_cups: 8
+water_ml_per_cup: 250
 tags: [daily]
 ---
 
@@ -26,8 +29,24 @@ tags: [daily]
 - **Lunch:**
 - **Dinner:**
 - **Snacks:**
-- **Water:** 0 / 8 cups (0ml / 2000ml)
-  <progress value="0" max="8"></progress>
+```dataviewjs
+const cups = Number(dv.current().water_cups ?? 0);
+const goal = Number(dv.current().water_goal_cups ?? 8);
+const mlPerCup = Number(dv.current().water_ml_per_cup ?? 250);
+
+const safeCups = Math.max(0, cups);
+const safeGoal = goal > 0 ? goal : 8;
+const currentMl = safeCups * mlPerCup;
+const goalMl = safeGoal * mlPerCup;
+
+dv.el("p", `Water: ${safeCups} / ${safeGoal} cups (${currentMl}ml / ${goalMl}ml)`);
+dv.el("progress", "", {
+  attr: {
+    value: Math.min(safeCups, safeGoal),
+    max: safeGoal
+  }
+});
+```
 - **Other Drinks:** 
 
 ---
