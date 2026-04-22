@@ -1,16 +1,18 @@
 ---
-date: 2026-04-20
-week: W16
-tags: [weekly-review, professional, personal]
+date: 2026-04-26
+week: W17
+tags: [weekly-review, personal, professional]
 ---
 
-# Weekly Review - Apr 13-19, 2026
+# Weekly Review - Apr 20-26, 2026
 
 ## Weekly Snapshot
 
-- Combined professional + personal review for the week of Apr 13-19.
-- Personal charts below are based on the daily notes currently logged for Apr 15-18.
-- Apr 13, Apr 14, and Apr 19 do not have daily-note entries yet, and some fields inside Apr 15-18 were left blank.
+- **Theme of the week:**
+- **Main win:**
+- **Main challenge:**
+- **What felt most important:**
+- **How complete the week felt:**
 
 ---
 
@@ -18,10 +20,11 @@ tags: [weekly-review, professional, personal]
 
 ### Body Stats
 
-| Metric | Start of Logged Week | End of Logged Week | Change |
-|--|--|--|--|
-| Weight | N/A | 63.85 kg | N/A |
-| Sleep average | N/A | 7.0 hr avg across 3 logged days | N/A |
+| | Start of Week | End of Week | Change |
+|--|--------------|------------|--------|
+| Weight | 65.43 kg | 64.40 kg | -1.03 kg |
+
+---
 
 ### Health & Routine Graphs
 
@@ -36,11 +39,11 @@ Number of Columns: 2
 {
   "type": "line",
   "data": {
-    "labels": ["Apr 15", "Apr 16", "Apr 18"],
+    "labels": ["Apr 20", "Apr 21", "Apr 22"],
     "datasets": [
       {
         "label": "Sleep Hours",
-        "data": [5, 6.5, 9.5],
+        "data": [6.5, 6.5, 6],
         "borderColor": "#5B8DEF",
         "backgroundColor": "rgba(91, 141, 239, 0.18)",
         "pointBackgroundColor": "#5B8DEF",
@@ -90,16 +93,20 @@ Number of Columns: 2
 {
   "type": "bar",
   "data": {
-    "labels": ["Apr 18"],
+    "labels": ["Apr 20", "Apr 21", "Apr 22"],
     "datasets": [
       {
         "label": "Weight",
-        "data": [63.85],
-        "backgroundColor": ["rgba(51, 168, 132, 0.75)"],
-        "borderColor": ["#33A884"],
+        "data": [65.43, 65.10, 64.40],
+        "backgroundColor": [
+          "rgba(51, 168, 132, 0.60)",
+          "rgba(51, 168, 132, 0.68)",
+          "rgba(51, 168, 132, 0.78)"
+        ],
+        "borderColor": ["#33A884", "#33A884", "#33A884"],
         "borderWidth": 2,
         "borderRadius": 12,
-        "barThickness": 42
+        "barThickness": 30
       }
     ]
   },
@@ -110,12 +117,12 @@ Number of Columns: 2
       },
       "title": {
         "display": true,
-        "text": "Latest Weight"
+        "text": "Weight Trend"
       }
     },
     "scales": {
       "y": {
-        "min": 60,
+        "min": 63,
         "max": 66,
         "grid": {
           "color": "rgba(120, 120, 120, 0.12)"
@@ -144,18 +151,18 @@ Number of Columns: 2
     "labels": ["Vitamin K+D", "Vitamin C", "Vitamin B", "Bromelain"],
     "datasets": [
       {
-        "data": [1, 1, 0, 0],
+        "data": [1, 1, 0, 1],
         "backgroundColor": [
           "#F4A261",
           "#E9C46A",
           "rgba(160, 160, 160, 0.35)",
-          "rgba(160, 160, 160, 0.22)"
+          "#D26B8A"
         ],
         "borderColor": [
           "#F4A261",
           "#E9C46A",
           "rgba(160, 160, 160, 0.35)",
-          "rgba(160, 160, 160, 0.22)"
+          "#D26B8A"
         ],
         "borderWidth": 1,
         "hoverOffset": 6
@@ -187,7 +194,7 @@ Number of Columns: 2
     "datasets": [
       {
         "label": "Completed Days",
-        "data": [0, 2, 0, 0],
+        "data": [0, 0, 0, 1],
         "backgroundColor": "rgba(210, 107, 138, 0.2)",
         "borderColor": "#D26B8A",
         "pointBackgroundColor": "#D26B8A",
@@ -210,7 +217,7 @@ Number of Columns: 2
     "scales": {
       "r": {
         "min": 0,
-        "max": 4,
+        "max": 3,
         "ticks": {
           "stepSize": 1,
           "backdropColor": "transparent"
@@ -231,8 +238,10 @@ Number of Columns: 2
 
 === end-multi-column
 
-- Sleep chart reflects the 3 days with logged sleep values.
-- Weight only has one logged entry this week, so that chart is intentionally minimal.
+- **Sleep trend note:** Sleep has been steady but short, sitting in a narrow `6.0-6.5 hr` range across Apr 20-22.
+- **Weight trend note:** Logged weight moved down from `65.43 kg` to `64.40 kg` over the first three days of the week.
+- **Supplement trend note:** Supplements were taken on `2 / 3` logged days, with coverage still inconsistent.
+- **Routine trend note:** `Self-Growth` has one completion so far; workout, skincare, and mindfulness are still at zero.
 
 ### Daily Calories
 
@@ -318,63 +327,71 @@ SORT date ASC
 
 ### Health & Nutrition
 
-- **Days with sleep logged:** 3 / 4 logged days
-- **Days with weight logged:** 1 / 4 logged days
-- **Supplement days:** 2 / 4 logged days
-- **Days I hit my calorie goal:** 1 / 4 logged days
+- **Days with sleep logged:** 3 / 3 logged days
+- **Days with weight logged:** 3 / 3 logged days
+- **Supplement days:** 2 / 3 logged days
+- **Days I hit my calorie goal:** 2 / 2 logged intake days
 - **Protein consistency:** Mixed
-- **Water intake:** Needs work
-- **Best meal this week:** The Korean seafood spicy tofu soup was the most intentional homemade meal and the clearest high-protein anchor this week.
-- **Biggest slip:** Calories ran high on most logged days, and hydration consistency stayed weak.
+- **Water intake:** Good / Needs work
+- **Best meal this week:** Apr 21 lunch was the strongest logged meal of the week so far and still kept the day within calorie range.
+- **Worst slip:** Apr 22 intake logging is still incomplete, so the weekly calorie picture is only partial right now.
+
+---
 
 ### Logged Routine Completion
 
-| Routine | Apr 15 | Apr 16 | Apr 17 | Apr 18 |
-|---------|--------|--------|--------|--------|
-| Workout | No | No | No | No |
-| Skincare | Yes | No | Yes | No |
-| Mindfulness | No | No | No | No |
-| Self-Growth | No | No | No | No |
+| Routine | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---------|-----|-----|-----|-----|-----|-----|-----|
+| Workout | | | | | | | |
+| Skincare | | | | | | | |
+| Mindfulness | | | | | | | |
+| Self-Growth | | | | | | | |
+
+---
 
 ### Wins This Week
 
-1. Kept the planning system moving forward and continued shaping the Obsidian setup.
-2. Logged food, sleep, and routine data often enough to start seeing patterns.
-3. Protected some skincare consistency even during a messy week.
+1.
+2.
+3.
 
 ### What To Improve
 
-1. Make weight and sleep logging more complete so the weekly review has a real start-to-end trend.
-2. Rebuild the basics first: water, workout consistency, and a clearer self-growth routine.
+1.
+2.
+
+---
 
 ### Diary Highlights
 
-- Apr 15: personal planning system setup moved forward.
-- Apr 17: finished GitHub Obsidian sync and job-search task organization.
-- Apr 18: set up a timed SQL diagnostic plan and redirected study structure more intentionally.
+-
+
+---
 
 ### Plan For Next Week
 
-- **Workout focus:** Restart with a low-friction baseline and aim for consistency before intensity.
-- **Health focus:** Log weight and sleep daily, and raise water intake above the current baseline.
-- **Habit to double down on:** Self-growth blocks with a clearer DS-prep cadence.
-- **One thing to let go of:** All-or-nothing routine expectations.
+- **Workout focus:**
+- **Health focus:**
+- **Work focus:**
+- **Habit to double down on:**
+- **One thing to let go of:**
+
+---
 
 ## Key Technical Work
 
 | Project / Task | What I Did | Tech Used | Impact |
 |---------------|-----------|-----------|--------|
-| CAD extraction research and matching workflow | Researched tooling for extracting parts and connections from CAD files, completed matching runs for CAD datasets, and selected an extraction approach for downstream analysis. | CAD data tooling, Python, dataset evaluation | Moved the workflow from exploration into a more executable analysis process with a clearer path for implementation. |
-| BOM-STEP reconciliation diagnostics | Built a post-processing pipeline around `bom_match.json` to convert raw outputs into structured diagnostics for exact matches, mismatches, fuzzy candidates, filtered STEP records, and suspected missing BOM items. | Python, JSON processing, reconciliation analysis | Made matching results easier to interpret, compare, and review systematically. |
-| Match quality framework | Reframed evaluation from a simple exact-match metric into a broader coverage model spanning exact matches, quantity mismatches, naming drift, fuzzy candidates, and likely missing parts. | Analytical modeling, reporting design | Improved visibility into where reconciliation quality breaks down and what type of fix is needed. |
-| Root-cause and benchmark analysis | Analyzed recurring mismatch ratios such as `0.5`, `0.25`, `0.75`, and `2.0`, added high-confidence fuzzy-match diagnostics, prioritized missing-part review by BOM quantity, and benchmarked datasets to identify `Y24 CSTN_Di` as the strongest baseline. | Data analysis, fuzzy matching diagnostics, comparative benchmarking | Clarified the difference between true coverage gaps, scope mismatches, and naming normalization issues while establishing a stable reference set for future refinement. |
+| | | | |
+| | | | |
+| | | | |
 
 ---
 
 ## Skills & Learning
 
-- **Skills exercised:** Python scripting for reconciliation analysis, JSON-based pipeline design, fuzzy-match diagnostics, comparative dataset benchmarking, and technical report design.
-- **New things learned:** Quantity mismatch patterns can reflect representation-scope differences between BOMs and CAD exports rather than straightforward matching failures.
+- **Skills exercised:**
+- **New things learned:**
 - **Courses / reading:**
 
 ---
@@ -385,8 +402,6 @@ SORT date ASC
 - **Responses / interviews:**
 - **Portfolio pieces updated:**
 - **Resume-ready achievements this sprint:**
-  - Built a reusable analytics workflow for BOM-to-CAD reconciliation and diagnostic reporting.
-  - Developed a multi-factor evaluation framework for identifying matching, naming, and quantity-scope issues across engineering datasets.
 
 ---
 
@@ -415,9 +430,10 @@ SORT date ASC
 
 ## Reflection
 
-- **Strongest technical contribution:** Built a structured reconciliation and diagnostic framework that made CAD-to-BOM matching results more actionable and easier to benchmark across datasets.
-- **Biggest challenge:** Separating true missing-part problems from naming drift and representation-scope differences in imperfect engineering data.
-- **What to focus on next two weeks:** Validate the selected extraction plan on additional datasets and reduce manual review by tightening normalization and mismatch classification rules.
+- **Strongest contribution this week:**
+- **Biggest challenge:**
+- **What to focus on next two weeks:**
+- **What I want to repeat next week:**
 
 ---
-*[[Planning/Weekly/Personal/]] | [[Knowledge/]] | [[Planning/Weekly/Professional/]]*
+*[[Planning/Daily Notes/]] | [[Health/Diet Goals]] | [[Knowledge/]]*

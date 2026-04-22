@@ -2,6 +2,13 @@
 date: {{date:YYYY-MM-DD}}
 day: {{date:dddd}}
 week: W{{date:ww}}
+calorie_goal: 1600
+breakfast_calories: 0
+lunch_calories: 0
+dinner_calories: 0
+snacks_calories: 0
+drink_calories: 0
+calorie_total: 0
 water_cups: 0
 water_goal_cups: 8
 water_ml_per_cup: 250
@@ -29,25 +36,10 @@ tags: [daily]
 - **Lunch:**
 - **Dinner:**
 - **Snacks:**
-```dataviewjs
-const cups = Number(dv.current().water_cups ?? 0);
-const goal = Number(dv.current().water_goal_cups ?? 8);
-const mlPerCup = Number(dv.current().water_ml_per_cup ?? 250);
+- **Water:** 0 / 8 cups (0ml / 2000ml)
+- **Other Drinks:**
 
-const safeCups = Math.max(0, cups);
-const safeGoal = goal > 0 ? goal : 8;
-const currentMl = safeCups * mlPerCup;
-const goalMl = safeGoal * mlPerCup;
-
-dv.el("p", `Water: ${safeCups} / ${safeGoal} cups (${currentMl}ml / ${goalMl}ml)`);
-dv.el("progress", "", {
-  attr: {
-    value: Math.min(safeCups, safeGoal),
-    max: safeGoal
-  }
-});
-```
-- **Other Drinks:** 
+ **Calorie Total:** 0 / 1600 kcal
 
 ---
 
@@ -59,14 +51,14 @@ Number of Columns: 2
 ```
 
 **Personal**
-- [ ] 
+- [ ]
 
 &nbsp;
 
 === column-break ===
 
 **Work**
-- [ ] 
+- [ ]
 
 &nbsp;
 
@@ -76,7 +68,7 @@ Number of Columns: 2
 
 ## Routine
 
-- [ ] Workout — [[Health/Workouts/{{date:YYYY-MM-DD}}]]
+- [ ] Workout - [[Health/Workouts/{{date:YYYY-MM-DD}}]]
 - [ ] Skincare
 - [ ] Mindfulness
 - [ ] Self-Growth *(DS job search / PhD / learning)*
